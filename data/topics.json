@@ -1,0 +1,252 @@
+[
+    {
+        "titulo": "Cloud computing",
+        "subtitulo": "What is cloud computing?",
+        "principal": true,
+        "tipoLayout": "IMAGEM_ESQUERDA",
+        "conteudo": {
+            "classeStyle": "col-md-6",
+            "backgroundColor": "white",
+            "color": "#7c25f8",
+            "titulo": "What is?",
+            "paragrafos": [
+                {
+                    "subtitulo": "Tecnology",
+                    "subtituloColor": "#7c25f8",
+                    "corpo": "De uma forma simples, cloud computing, ou computação na nuvem, é uma tecnologia que permite acesso remoto a softwares, armazenamento de arquivos e processamento de dados por meio da internet. É uma alternativa para você acessar dados importantes de qualquer computador, em qualquer lugar.",
+                    "corpoColor": "#7c25f8"
+                },
+                {
+                    "subtitulo": "Why use?",
+                    "subtituloColor": "#7c25f8",
+                    "corpo": "O cloud computing proporciona às empresas mais flexibilidade em relação a dados e informações, que podem ser acessados a qualquer hora. É ideal para empresas com sedes ao redor do mundo ou em diferentes ambientes de trabalho, abrangendo locais remotos. Com o mínimo de gerenciamento, todos os elementos de software da computação na nuvem podem ser dimensionados sob demanda: você precisa apenas de uma conexão à internet.",
+                    "corpoColor": "#7c25f8"
+                }
+            ]
+        },
+        "midias": {
+            "classeStyle": "col-md-6",
+            "agrupamento": [
+                {
+                    "classeStyle": "row albuns",
+                    "imagens": [
+                        {
+                            "classeStyle": "col-md-6 d-none d-md-block",
+                            "url": "assets/cloud1.jpg"
+                        },
+                        {   
+                            "classeStyle": "col-md-6 d-none d-md-block",
+                            "url": "assets/cloud02.jpeg"
+                        }
+                        
+                    ]
+                },
+                {
+                    "classeStyle": "row albuns",
+                    "imagens": [
+                        {
+                            "classeStyle": "col-md-6 d-none d-md-block",
+                            "url": "assets/Cloud03.jfif"
+                        },
+                        {   
+                            "classeStyle": "col-md-6 d-none d-md-block",
+                            "url": "assets/cloud04.jpg"
+                        }
+                        
+                    ]
+                }
+            ]
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "titulo": "Cloud computing",
+        "subtitulo": "How does cloud computing work?",
+        "principal": false,
+        "tipoLayout": "IMAGEM_DIREITA",
+        "conteudo": {
+            "classeStyle": "col-md-8",
+            "backgroundColor": "",
+            "color": "white",
+            "titulo": "How does cloud computing work?",
+            "paragrafos": [
+                {
+                    "subtitulo": "",
+                    "subtituloColor": "",
+                    "corpo": "O cloud computing utiliza uma camada de rede para conectar desde os dispositivos de ponto periférico dos usuários, como computadores, smartphones e acessórios portáteis, a recursos centralizados no data center. Ele conta com diferentes modelos de serviço:",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "Saas",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "O modelo SaaS  – software como serviço de computação na nuvem – é o mais conhecido entre as empresas. Ele disponibiliza o aplicativo de software ao usuário por meio de uma interface de navegador ou de programa e faz com que a rede subjacente, o sistema operacional e os recursos funcionem nos bastidores. Não é necessário comprar o software, pois o serviço é contratado por meio de assinaturas que dão permissão de acesso. Logo, o uso dos aplicativos pode ser feito de qualquer dispositivo conectado à internet.",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "IaaS",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "O modelo IaaS – infraestrutura como serviço –  é o modelo de serviço com maior nível de flexibilidade e controle sobre os recursos de tecnologia. Ele proporciona às organizações a capacidade de aproveitar recursos brutos do servidor enquanto o restante do gerenciamento da plataforma e do software é de responsabilidade da empresa. Isso permite capacidade extra sem a preocupação com requisitos de hardware.",
+                    "corpoColor": "white"
+                }
+            ]
+        },
+        "midias": {
+            "classeStyle": "col-md-4",
+            "agrupamento": [
+                {
+                    "classeStyle": "row rotacionar",
+                    "imagens": [
+                        {
+                            "classeStyle": "col-md-6",
+                            "url": "assets/iphone1.png"
+                        },
+                        {   
+                            "classeStyle": "col-md-6",
+                            "url": "assets/iphone2.png"
+                        }
+                        
+                    ]
+                }
+            ]
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "titulo": "Cloud computing",
+        "subtitulo": "Why use?",
+        "principal": false,
+        "tipoLayout": "",
+        "conteudo": {
+            "classeStyle": "col-md-8",
+            "backgroundColor": "white",
+            "color": "#3ea6eb",
+            "titulo": "Why use?",
+            "paragrafos": [
+                {
+                    "subtitulo": "Para Dispensar o Hardware",
+                    "subtituloColor": "#3ea6eb",
+                    "corpo": "Quando uma empresa fornece seu próprio software, é preciso pensar nos servidores, que exigem uma fonte de alimentação dedicada e peças de substituição. Além disso, também precisam de configuração e monitoramento e de um time de especialistas de plantão para resolver problemas.",
+                    "corpoColor": "#3ea6eb"
+                },
+                {
+                    "subtitulo": "Diminuição de custos",
+                    "subtituloColor": "#3ea6eb",
+                    "corpo": "Quando o software é baseado na nuvem, essas preocupações e os custos flutuantes – e potencialmente altos – com infraestrutura desaparecem substancialmente, pois os valores são previsíveis. O provedor de computação na nuvem é responsável por lidar com essas preocupações. Ele deve assegurar que o processo seja tranquilo e ininterrupto em troca de um custo de software fixo e razoável.",
+                    "corpoColor": "#3ea6eb"
+                },
+                {
+                    "subtitulo": "Segurança",
+                    "subtituloColor": "#3ea6eb",
+                    "corpo": "A computação na nuvem é extremamente segura e reduz a necessidade de contratação de times internos de TI. Ela permite também implementar práticas e tecnologias de segurança de ponta, orientadas por uma visão mais ampla dos padrões globais de ameaças em relação àquelas da maioria dos governos locais. Com dezenas ou centenas de usuários possivelmente em risco de exposição a programas maliciosos, manter as organizações seguras pode ser muito caro.",
+                    "corpoColor": "#3ea6eb"
+                },
+                {
+                    "subtitulo": "",
+                    "subtituloColor": "#3ea6eb",
+                    "corpo": "Os provedores de cloud computing trabalham com um orçamento bem maior. Como precisam garantir a segurança de todos os clientes, cada empresa obtém benefícios do grande grupo, significando um nível de segurança mais elevado para todos. Com uma infraestrutura fortalecida, monitoramento cuidadoso e aplicação de protocolos de segurança, a computação na nuvem pode oferecer a empresas de pequeno e médio porte a mesma proteção das organizações com requisitos altamente exigentes.",
+                    "corpoColor": "#3ea6eb"
+                }
+            ]
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "titulo": "Cloud computing",
+        "subtitulo": "Features",
+        "principal": false,
+        "tipoLayout": "IMAGEM_DIREITA",
+        "conteudo": {
+            "classeStyle": "col-md-8",
+            "backgroundColor": "",
+            "color": "white",
+            "titulo": "Features",
+            "paragrafos": [
+                {
+                    "subtitulo": "Sob demanda",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "Não é preciso consultar alguém ou ter um profissional de TI envolvido no provisionamento do servidor ou do armazenamento na rede. Você tem a capacidade de computação necessária quando precisa.",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "Multiplataforma:",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "Basta ter uma conexão à internet para acessar o serviço em seu laptop, tablet, smartphone ou computador desktop.",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "Recursos em pool",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "Segue o modelo de multilocatários, o que significa que há vários usuários do software.",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "Flexibilidade rápida",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "O usuário tem uma experiência que é dimensionada com base na demanda e na utilização real.Imagine um hotel que possa mudar o tamanho da cama de queen size para king size no mesmo \"quarto\".",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "Serviço medido",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "A utilização de recursos é monitorada, controlada e relatada antecipadamente.Isso torna a capacidade de computação essencialmente a mesma em relação a um serviço de utilitários pago.",
+                    "corpoColor": "white"
+                }
+            ]
+        },
+        "midias": {
+            "classeStyle": "col-md-4",
+            "agrupamento": [
+                {
+                    "classeStyle": "row rotacionar",
+                    "imagens": [
+                        {
+                            "classeStyle": "col-md-6",
+                            "url": "assets/iphone1.png"
+                        },
+                        {   
+                            "classeStyle": "col-md-6",
+                            "url": "assets/iphone2.png"
+                        }
+                        
+                    ]
+                }
+            ]
+        }
+    }
+]

@@ -1,420 +1,160 @@
 <!DOCTYPE html>
 <html lang="pt-br">
- 
-    <head>
-
-    <!-- Meta tags Obrigatórias -->
+  
+  <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-    <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
-
-    <!-- Font Awesome -->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-    
-    <!-- Estilo customizado -->
     <link rel="stylesheet" type="text/css" href="css/estilo.css">
 
     <title>Cloud computing</title>
     <link rel="icon" href="assets/nuvem.png">
-
   </head>
-  <body>
-    
-    <header>
 
-        <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
-            <div class="container">
+  <body>
+    <header>
+      <nav class="navbar navbar-expand-md navbar-light fixed-top navbar-transparente">
+        
+        <div class="container">
+          <a href="index.html" class="navbar-brand">
+            <img src="assets/nuvem.png" width="142">
+          </a>
+    
+          <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
+            <i class="fas fa-bars text-white"></i>
+          </button>
+    
+          <div class="collapse navbar-collapse" id="nav-principal">
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item">
+                <a href="#clouds" class="nav-link">Topics</a>
+              </li>
+        
+              <li class="nav-item">
+                <a href="" class="nav-link">Back to top</a>
+              </li>
+
+              <li class="nav-item divisor"></li>
               
-              <a href="index.html" class="navbar-brand">
-                <img src="assets/nuvem.png" width="142">
+              <li class="nav-item">
+                <a href="#rodape" class="nav-link">Who we are?</a>
+              </li>
+            </ul>
+          </div>
+
+        </div>
+      </nav>
+    </header>
+
+    <section id="home" class="d-flex">
+      <div class="container align-self-center">
+        <div class="row">
+          <div class="col-md-12 capa">
+            <div id="carousel-cloud" class="carousel slide"  data-interval="10000" data-ride="carousel">
+
+              <div id="temas" class="carousel-inner"></div>
+    
+              <a href="#carousel-cloud" class="carousel-control-prev" data-slide="prev">
+                <i class="fas fa-angle-left fa-3x"></i>
               </a>
     
-              <button class="navbar-toggler" data-toggle="collapse" data-target="#nav-principal">
-               <i class="fas fa-bars text-white"></i>
-              </button>
-    
-              <div class="collapse navbar-collapse" id="nav-principal">
-
-                <ul class="navbar-nav ml-auto">
-                  
-                  <li class="nav-item">
-                    <a href="" class="nav-link">What is?</a>
-                  </li>
-                  
-                  <li class="nav-item">
-                    <a href="" class="nav-link">How does cloud computing work?</a>
-                  </li>
-
-                  <li class="nav-item divisor"></li>
-                  
-                  <li class="nav-item">
-                    <a href="" class="nav-link">Why use?</a>
-                  </li>
-
-                  <li class="nav-item">
-                    <a href="" class="nav-link">Features</a>
-                  </li>
-
-                </ul>
-
-              </div>
-    
+              <a href="#carousel-cloud" class="carousel-control-next" data-slide="next">
+                <i class="fas fa-angle-right fa-3x"></i>
+              </a>
             </div>
-          </nav>
 
-    </header>
-    
-    <section id="home" class="d-flex"><!--home -->
-        <div class="container align-self-center"><!--container -->
-          
-            <div class="row"><!--row -->
-            
-                <div class="col-md-12 capa">
-              
-              <div id="carousel-cloud" class="carousel slide"  data-interval="10000" data-ride="carousel">
-                
-                <div class="carousel-inner"><!--Inner -->
-                  
-                  <div class="carousel-item active">
-                    
-                    <h1>Cloud computing</h1>
-                    <a href="" class="btn btn-lg btn-custom btn-roxo">
-                      What is cloud computing?
-                    </a>
-
-                  </div>
-  
-                  <div class="carousel-item">
-
-                    <h1>How does cloud computing work?</h1>
-                    <a href="" class="btn btn-lg btn-custom btn-branco">
-                      Click here and discover !
-                    </a>
-                    
-                  </div>
-
-                  <div class="carousel-item">
-
-                    <h1>Why use?</h1>
-                    <a href="" class="btn btn-lg btn-custom btn-branco">
-                      Click here and discover !
-                    </a>
-                    
-                  </div>
-
-                  <div class="carousel-item">
-
-                    <h1>Features</h1>
-                    <a href="" class="btn btn-lg btn-custom btn-branco">
-                      Click here and discover !
-                    </a>
-                    
-                  </div>
-  
-                </div><!--/Inner -->
-  
-                <!-- Controles -->
-                <a href="#carousel-cloud" class="carousel-control-prev" data-slide="prev">
-                  <i class="fas fa-angle-left fa-3x"></i>
-                </a>
-  
-                <a href="#carousel-cloud" class="carousel-control-next" data-slide="next">
-                  <i class="fas fa-angle-right fa-3x"></i>
-                </a>
-  
-              </div>
-
-              <div class="clouds">
-           
-                <img src="assets/nuvem.png" alt="imagem nuvem">
-                <img src="assets/nuvem.png" alt="imagem nuvem">
-                <img src="assets/nuvem.png" alt="imagem nuvem">
-                <img src="assets/nuvem.png" alt="imagem nuvem">
-                <img src="assets/nuvem.png" alt="imagem nuvem">
-                <img src="assets/nuvem.png" alt="imagem nuvem">
-                <img src="assets/nuvem.png" alt="imagem nuvem">
-    
+            <div id="clouds" class="clouds">
+              <img src="assets/nuvem.png" alt="imagem nuvem">
+              <img src="assets/nuvem.png" alt="imagem nuvem">
+              <img src="assets/nuvem.png" alt="imagem nuvem">
+              <img src="assets/nuvem.png" alt="imagem nuvem">
+              <img src="assets/nuvem.png" alt="imagem nuvem">
+              <img src="assets/nuvem.png" alt="imagem nuvem">
+              <img src="assets/nuvem.png" alt="imagem nuvem">
             </div>
-  
-            </div>
-          </div><!--/row -->
-        </div><!--/container -->
-      </section><!--/home -->
-
-    <section id="what-is" class="caixa">
-       
-        <div class="container">
-            
-            <div class="row">
-               
-                <div class="col-md-6">
-
-                    <div class="row albuns">
-                        <div class="col-md-6 d-none d-md-block">
-                            <img src="assets/cloud1.jpg" class="img-fluid">
-                        </div>
-    
-                        <div class="col-md-6 d-none d-md-block">
-                            <img src="assets/cloud02.jpeg" class="img-fluid">
-                        </div>
-                    </div>
-
-                    <div class="row albuns">
-                        <div class="col-md-6 d-none d-md-block">
-                            <img src="assets/Cloud03.jfif" class="img-fluid">
-                        </div>
-    
-                        <div class="col-md-6 d-none d-md-block">
-                            <img src="assets/cloud04.jpg" class="img-fluid">
-                        </div>
-                    </div>
-
-                </div>
-
-                <div class="col-md-6">
-
-                    <h2>What is?</h2>
-
-                    <h3>Tecnology</h3>
-                    <p>De uma forma simples, cloud computing, ou computação na nuvem, 
-                      é uma tecnologia que permite acesso remoto a softwares, armazenamento 
-                      de arquivos e processamento de dados por meio da internet. É uma alternativa
-                       para você acessar dados importantes de qualquer computador, em qualquer lugar.</p>
-        
-                    <h3>Why use?</h3>
-                    <p>O cloud computing proporciona às empresas mais flexibilidade em relação a dados e 
-                      informações, que podem ser acessados a qualquer hora. É ideal para empresas com sedes
-                       ao redor do mundo ou em diferentes ambientes de trabalho, abrangendo locais remotos. 
-                       Com o mínimo de gerenciamento, todos os elementos de software da computação na nuvem 
-                       podem ser dimensionados sob demanda: você precisa apenas de uma conexão à internet.</p>
-        
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="how-work" class="caixa">
-        <div class="container">
-            
-            <div class="row">
-               
-               
-                <div class="col-md-8">
-
-                    <h2>How does cloud computing work?</h2>
-
-                    <p>O cloud computing utiliza uma camada de rede para conectar desde os dispositivos de 
-                      ponto periférico dos usuários, como computadores, smartphones e acessórios portáteis, 
-                      a recursos centralizados no data center. Ele conta com diferentes modelos de serviço:</p>
-
-                    <h3>Saas</h3>
-                    <p>O modelo SaaS  – software como serviço de computação na nuvem – é o mais conhecido 
-                      entre as empresas. Ele disponibiliza o aplicativo de software ao usuário por meio d
-                      e uma interface de navegador ou de programa e faz com que a rede subjacente, o 
-                      sistema operacional e os recursos funcionem nos bastidores. Não é necessário 
-                      comprar o software, pois o serviço é contratado por meio de assinaturas que dão 
-                      permissão de acesso. Logo, o uso dos aplicativos pode ser feito de qualquer dispositivo conectado à internet.
-                    </p>
-        
-                    <h3>IaaS</h3>
-                    <p>O modelo IaaS – infraestrutura como serviço –  é o modelo de serviço com maior nível de 
-                      flexibilidade e controle sobre os recursos de tecnologia. Ele proporciona às organizações 
-                      a capacidade de aproveitar recursos brutos do servidor enquanto o restante do gerenciamento 
-                      da plataforma e do software é de responsabilidade da empresa. Isso permite capacidade extra 
-                      sem a preocupação com requisitos de hardware.
-                    </p>
-         
-                </div>
-
-                <div class="col-md-4">
-                    
-                    <div class="row rotacionar">
-                        
-                        <div class="col-md-6">
-                            <img src="assets/iphone1.png" class="img-fluid">
-                        </div>
-
-                        <div class="col-md-6">
-                            <img src="assets/iphone2.png" class="img-fluid">
-                        </div>
-                    
-                    </div>
-                </div>
-
-            </div>
-        </div>
-    </section>
-
-    <section id="why-use" class="caixa">
-       
-      <div class="container">
-          
-          <div class="row">
-             
-              <div class="col-md-8">
-
-                  <h2>Why use?</h2>
-
-                  <h3>Para Dispensar o Hardware</h3>
-                  <p>Quando uma empresa fornece seu próprio software, é preciso pensar nos servidores, 
-                    que exigem uma fonte de alimentação dedicada e peças de substituição. Além disso, 
-                    também precisam de configuração e monitoramento e de um time de especialistas de plantão 
-                    para resolver problemas.</p>
-      
-                  <h3>Diminuição de custos</h3>
-                  <p>Quando o software é baseado na nuvem, essas preocupações e os custos flutuantes – e 
-                    potencialmente altos – com infraestrutura desaparecem substancialmente, pois os valores 
-                    são previsíveis. O provedor de computação na nuvem é responsável por lidar com essas preocupações. 
-                    Ele deve assegurar que o processo seja tranquilo e ininterrupto em troca de um custo de software fixo e razoável.</p>
-      
-                    <h3>Segurança</h3>
-                    <p>
-                      A computação na nuvem é extremamente segura e reduz a necessidade de contratação de times internos de TI. 
-                      Ela permite também implementar práticas e tecnologias de segurança de ponta, orientadas por uma visão mais 
-                      ampla dos padrões globais de ameaças em relação àquelas da maioria dos governos locais. Com dezenas ou centenas 
-                      de usuários possivelmente em risco de exposição a programas maliciosos, manter as organizações seguras pode ser muito caro.</p>
-        
-                      <p>Os provedores de cloud computing trabalham com um orçamento bem maior. 
-                        Como precisam garantir a segurança de todos os clientes, cada empresa obtém benefícios do grande grupo,
-                        significando um nível de segurança mais elevado para todos. Com uma infraestrutura fortalecida, 
-                        monitoramento cuidadoso e aplicação de protocolos de segurança, a computação na nuvem pode oferecer a 
-                        empresas de pequeno e médio porte a mesma proteção das organizações com requisitos altamente exigentes.</p>
-
-              </div>
-
           </div>
-      </div>
-  </section>
-
-  <section id="features" class="caixa">
-    <div class="container">
-        
-        <div class="row">
-           
-           
-            <div class="col-md-8">
-
-                <h2>Features</h2>
-
-                <h3>Sob demanda </h3>
-                <p>Não é preciso consultar alguém ou ter um profissional de TI envolvido no provisionamento 
-                  do servidor ou do armazenamento na rede. Você tem a capacidade de computação necessária quando precisa.
-                </p>
-
-                <h3>Multiplataforma: </h3>
-                <p>Basta ter uma conexão à internet para acessar o serviço em seu laptop, tablet, 
-                  smartphone ou computador desktop.
-                </p>
-    
-                <h3>Recursos em pool</h3>
-                <p> Segue o modelo de multilocatários, o que significa que há vários usuários do software.
-                </p>
-
-                <h3>Flexibilidade rápida</h3>
-                <p>O usuário tem uma experiência que é dimensionada com base na demanda e na utilização real.
-                   Imagine um hotel que possa mudar o tamanho da cama de queen size para king size no mesmo "quarto".</p>
-
-                <h3>Serviço medido</h3>
-                <p>A utilização de recursos é monitorada, controlada e relatada antecipadamente.
-                  Isso torna a capacidade de computação essencialmente a mesma em relação a um serviço de utilitários pago.</p>
-     
-            </div>
-
-            <div class="col-md-4">
-                
-                <div class="row rotacionar">
-                    
-                    <div class="col-md-6">
-                        <img src="assets/iphone1.png" class="img-fluid">
-                    </div>
-
-                    <div class="col-md-6">
-                        <img src="assets/iphone2.png" class="img-fluid">
-                    </div>
-                
-                </div>
-            </div>
-
         </div>
-    </div>
-</section>
+      </div>
+    </section>
 
     <footer>
-        <div class="container">
-            
-            <div class="row">
-               
-                <div class="col-md-2">
-                    <img src="assets/nuvem.png" width="142">
-                </div>
-            
-                <div class="col-md-3">
+      <div id="rodape" class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <img src="assets/nuvem.png" width="142">
+          </div>
+        
+          <div class="col-md-3">
+            <h4>Students</h4>
                   
-                    <h4>Alunos</h4>
-                   
-                    <ul class="navbar-nav">
-                      <li><a href=""> Yuri Daniel Martins </a></li>
-                       <li><a href="https://github.com/HenriqueSales10"> Henrique Correia de Sales </a></li>
-                       <li><a href=""> Breno Augusto Comandolli </a></li>
-                       <li><a href=""> Lucas Michel Senem </a></li>
-                       <li><a href=""> Leonardo tavares </a></li>
-                    </ul>
-
-                </div>
-            
-                <div class="col-md-3">
-                  
-                  <ul class="navbar-nav">
-                    <li><a href=""> Filipe Schenkel </a></li>
-                    <li><a href=""> Antony </a></li>
-                     <li><a href=""> Lucas Lima </a></li>
-                     <li><a href=""> Douglas Silva</a></li>
-                     <li><a href=""> Wiliam G. </a></li>
-                 
-                  </ul>
-
-              </div>
-          
-                <div class="col-md-4">
-                    
-                    <ul>
-                        
-                        <li>
-                            <a href="">
-                                <img src="assets/facebook.png" alt="">
-                            </a>
-                        </li>
-                        
-                        <li>
-                            <a href="">
-                                <img src="assets/twitter.png" alt="">
-                            </a>
-                        </li>
-
-                        
-                        <li>
-                            <a href="">
-                                <img src="assets/instagram.png" alt="">
-                            </a>
-                        </li>
-                   
-
-                    </ul>
-                </div>
-
-            </div>
+            <ul class="navbar-nav">
+              <li>
+                <a href=""> Antony </a>
+              </li>
+              <li>
+                <a href="https://github.com/BrenoAugustoComandolli">Breno Augusto Comandolli</a>
+              </li>
+              <li>
+                <a href="https://github.com/degabnu">Douglas Silva</a>
+              </li>
+              <li>
+                <a href="https://github.com/filipexenxel">Filipe Schenkel </a>
+              </li>
+              <li>
+                <a href="https://github.com/HenriqueSales10">Henrique Correia de Sales</a>
+              </li>
+            </ul>
+          </div>
+        
+          <div class="col-md-3">
+            <ul class="navbar-nav">
+              <li>
+                <a href="https://github.com/japa2002">Leonardo Francisco Tavares</a>
+              </li>
+              <li>
+                <a href="https://github.com/Lucasbertilima">Lucas Henrique Berti Lima</a>
+              </li>
+              <li>
+                <a href="https://github.com/Lucassenem123">Lucas Michel Senem</a>
+              </li>
+              <li>
+                <a href="https://github.com/williamguilhermeprochnow">William Guilherme Prochnow</a>
+              </li>
+              <li>
+                <a href="https://github.com/yuridmd26">Yuri Daniel Martins Defreyn</a>
+              </li>
+            </ul>
+          </div>
+      
+          <div class="col-md-4">
+            <ul>
+              <li>
+                <a href="">
+                  <img src="assets/facebook.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="assets/twitter.png" alt="">
+                </a>
+              </li>
+              <li>
+                <a href="">
+                  <img src="assets/instagram.png" alt="">
+                </a>
+              </li>
+            </ul>
+          </div>
 
         </div>
+      </div>
     </footer>
 
-
-    <!-- JavaScript (Opcional) -->
-    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="scripts/menu.js"></script>
   </body>
 </html>
