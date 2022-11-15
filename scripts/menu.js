@@ -29,6 +29,8 @@ function criaTema(titulo, subtitulo, principal, numId){
     var link = document.createElement("a");
     link.className = "btn btn-lg btn-custom btn-roxo text-white";
     link.textContent = subtitulo;
+    link.href = "#topic_"+numId;
+    
     divItem.appendChild(link);
 
     var temas = document.getElementById("temas");
