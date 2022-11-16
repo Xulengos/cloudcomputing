@@ -29,7 +29,12 @@ function criaTema(titulo, subtitulo, principal, numId){
     var link = document.createElement("a");
     link.className = "btn btn-lg btn-custom btn-roxo text-white";
     link.textContent = subtitulo;
-    link.href = "#topic_"+numId;
+
+    if(numId-1 > 0){
+        link.href = "#auxil_"+(numId-1);
+    }else{
+        link.href = "#clouds";
+    }
     
     divItem.appendChild(link);
 
@@ -49,9 +54,15 @@ function criaCorpoConteudo(id, tipoLayout, conteudo, midias, numId){
 
     var row = document.createElement("div");
     row.className = "row";
+
+    var auxiliar = document.createElement("div");
+    auxiliar.id = "auxil_"+numId;
+
     container.appendChild(row);
 
     montaSubtopicos(row, tipoLayout, conteudo, midias);
+
+    row.appendChild(auxiliar);
 
     var body = document.getElementsByTagName("body");
     body[0].insertBefore(section, body[0].children[1+numId]);
