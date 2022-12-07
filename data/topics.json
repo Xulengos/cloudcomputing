@@ -1,25 +1,19 @@
 [
     {
-        "titulo": "Cloud computing",
-        "subtitulo": "What is cloud computing?",
+        "titulo": "What is Cloud?",
+        "subtitulo": "Go to the answer",
         "principal": true,
         "tipoLayout": "IMAGEM_ESQUERDA",
         "conteudo": {
             "classeStyle": "col-md-6",
             "backgroundColor": "white",
             "color": "#7c25f8",
-            "titulo": "What is?",
+            "titulo": "What is Cloud?",
             "paragrafos": [
                 {
-                    "subtitulo": "Tecnology",
+                    "subtitulo": "",
                     "subtituloColor": "#7c25f8",
-                    "corpo": "De uma forma simples, cloud computing, ou computação na nuvem, é uma tecnologia que permite acesso remoto a softwares, armazenamento de arquivos e processamento de dados por meio da internet. É uma alternativa para você acessar dados importantes de qualquer computador, em qualquer lugar.",
-                    "corpoColor": "#7c25f8"
-                },
-                {
-                    "subtitulo": "Why use?",
-                    "subtituloColor": "#7c25f8",
-                    "corpo": "O cloud computing proporciona às empresas mais flexibilidade em relação a dados e informações, que podem ser acessados a qualquer hora. É ideal para empresas com sedes ao redor do mundo ou em diferentes ambientes de trabalho, abrangendo locais remotos. Com o mínimo de gerenciamento, todos os elementos de software da computação na nuvem podem ser dimensionados sob demanda: você precisa apenas de uma conexão à internet.",
+                    "corpo": "\"The cloud\" is made up of servers, accessed over the internet, and software and databases running on those servers, that are located in datacenters distributed around the world. The Cloud offers faster innovation, flexible resources, and economies of scale. You typically pay only for cloud services you use, helping you lower your operating costs, run your infrastructure more efficiently, and scale as your business needs change. Using cloud computing, users and businesses don't need to manage physical servers or run software applications on their own machines. In a simple way, cloud computing is a technology that allows remote access to software, file storage and data processing through the internet. It's an alternative for you to access important data from any computer, anywhere.",
                     "corpoColor": "#7c25f8"
                 }
             ]
@@ -70,8 +64,8 @@
 
 
     {
-        "titulo": "Cloud computing",
-        "subtitulo": "How does cloud computing work?",
+        "titulo": "How does the Cloud work?",
+        "subtitulo": "Go to the answer",
         "principal": false,
         "tipoLayout": "IMAGEM_DIREITA",
         "conteudo": {
@@ -83,19 +77,31 @@
                 {
                     "subtitulo": "",
                     "subtituloColor": "",
-                    "corpo": "O cloud computing utiliza uma camada de rede para conectar desde os dispositivos de ponto periférico dos usuários, como computadores, smartphones e acessórios portáteis, a recursos centralizados no data center. Ele conta com diferentes modelos de serviço:",
+                    "corpo": "First, we need to identify the cloud deployment model types, namely: private cloud, public cloud, and hybrid cloud.",
                     "corpoColor": "white"
                 },
                 {
-                    "subtitulo": "Saas",
+                    "subtitulo": "Private cloud",
                     "subtituloColor": "#00ffd0",
-                    "corpo": "O modelo SaaS  – software como serviço de computação na nuvem – é o mais conhecido entre as empresas. Ele disponibiliza o aplicativo de software ao usuário por meio de uma interface de navegador ou de programa e faz com que a rede subjacente, o sistema operacional e os recursos funcionem nos bastidores. Não é necessário comprar o software, pois o serviço é contratado por meio de assinaturas que dão permissão de acesso. Logo, o uso dos aplicativos pode ser feito de qualquer dispositivo conectado à internet.",
+                    "corpo": "Deliver to the customer a proprietary cloud environment dedicated to a single business entity, with physical components stored locally or in a third-party datacenter. Since the private cloud can only be accessed by a single company, this model gives you greater control. Advantages include custom architecture, specific security protocols, and the ability to extend computing resources in a virtualized environment as needed.",
                     "corpoColor": "white"
                 },
                 {
-                    "subtitulo": "IaaS",
+                    "subtitulo": "Public cloud",
                     "subtituloColor": "#00ffd0",
-                    "corpo": "O modelo IaaS – infraestrutura como serviço –  é o modelo de serviço com maior nível de flexibilidade e controle sobre os recursos de tecnologia. Ele proporciona às organizações a capacidade de aproveitar recursos brutos do servidor enquanto o restante do gerenciamento da plataforma e do software é de responsabilidade da empresa. Isso permite capacidade extra sem a preocupação com requisitos de hardware.",
+                    "corpo": "uses the internet to store and manage access to data and applications. It is fully virtualized, providing an environment where shared resources are leveraged as needed. Because these capabilities are delivered over the web, the public cloud deployment model allows organizations to scale more easily, with the ability to pay for cloud resources as you go is a huge advantage over maintaining on-premises servers. In addition, public cloud providers offer strong security measures to prevent one Company's data from being accessed by another Company.",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "The hybrid cloud",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "It is a mix between private and public clouds, allowing companies to enjoy the benefits of shared resources while using internal IT infrastructure for critical security requirements. The hybrid cloud model allows companies to store sensitive data locally and access it through applications running in the public cloud.",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "",
+                    "subtituloColor": "",
+                    "corpo": "In addition, companies can opt for a multi-cloud approach, which means they use more than one public cloud service (Azure, Google Cloud, AWS, Oracle Cloud, for example). This approach can be used to distribute workloads across multiple cloud platforms, allowing organizations to optimize their environments for performance, flexibility and cost savings.",
                     "corpoColor": "white"
                 }
             ]
@@ -131,43 +137,33 @@
 
 
 
-
-
-
-
     {
-        "titulo": "Cloud computing",
-        "subtitulo": "Why use?",
+        "titulo": "What is the purpose of the Cloud?",
+        "subtitulo": "Go to the answer",
         "principal": false,
         "tipoLayout": "",
         "conteudo": {
             "classeStyle": "col-md-8",
             "backgroundColor": "white",
             "color": "#3ea6eb",
-            "titulo": "Why use?",
+            "titulo": "What is the purpose of the Cloud?",
             "paragrafos": [
                 {
-                    "subtitulo": "Para Dispensar o Hardware",
-                    "subtituloColor": "#3ea6eb",
-                    "corpo": "Quando uma empresa fornece seu próprio software, é preciso pensar nos servidores, que exigem uma fonte de alimentação dedicada e peças de substituição. Além disso, também precisam de configuração e monitoramento e de um time de especialistas de plantão para resolver problemas.",
-                    "corpoColor": "#3ea6eb"
-                },
-                {
-                    "subtitulo": "Diminuição de custos",
-                    "subtituloColor": "#3ea6eb",
-                    "corpo": "Quando o software é baseado na nuvem, essas preocupações e os custos flutuantes – e potencialmente altos – com infraestrutura desaparecem substancialmente, pois os valores são previsíveis. O provedor de computação na nuvem é responsável por lidar com essas preocupações. Ele deve assegurar que o processo seja tranquilo e ininterrupto em troca de um custo de software fixo e razoável.",
-                    "corpoColor": "#3ea6eb"
-                },
-                {
-                    "subtitulo": "Segurança",
-                    "subtituloColor": "#3ea6eb",
-                    "corpo": "A computação na nuvem é extremamente segura e reduz a necessidade de contratação de times internos de TI. Ela permite também implementar práticas e tecnologias de segurança de ponta, orientadas por uma visão mais ampla dos padrões globais de ameaças em relação àquelas da maioria dos governos locais. Com dezenas ou centenas de usuários possivelmente em risco de exposição a programas maliciosos, manter as organizações seguras pode ser muito caro.",
-                    "corpoColor": "#3ea6eb"
-                },
-                {
                     "subtitulo": "",
+                    "subtituloColor": "",
+                    "corpo": "There are several purposes for using the Cloud, however, here are the two that are perhaps the main ones:",
+                    "corpoColor": "#3ea6eb"
+                },
+                {
+                    "subtitulo": "First: Ditch the Hardware",
                     "subtituloColor": "#3ea6eb",
-                    "corpo": "Os provedores de cloud computing trabalham com um orçamento bem maior. Como precisam garantir a segurança de todos os clientes, cada empresa obtém benefícios do grande grupo, significando um nível de segurança mais elevado para todos. Com uma infraestrutura fortalecida, monitoramento cuidadoso e aplicação de protocolos de segurança, a computação na nuvem pode oferecer a empresas de pequeno e médio porte a mesma proteção das organizações com requisitos altamente exigentes.",
+                    "corpo": "When a company supplies its own software, it has to think about the servers, which require a dedicated power supply and replacement parts. In addition, they also need configuration and monitoring and a team of experts on call to solve problems. When the software is cloud-based, these concerns and the potentially high infrastructure costs disappear substantially as the values ​​are predictable. The cloud computing provider is responsible for dealing with these concerns. He must ensure that the process is smooth and uninterrupted in exchange for a fixed and reasonable software cost.",
+                    "corpoColor": "#3ea6eb"
+                },
+                {
+                    "subtitulo": "Second: Increase security",
+                    "subtituloColor": "#3ea6eb",
+                    "corpo": "Cloud computing is extremely secure and reduces the need to hire internal IT teams. It also enables you to implement cutting-edge security practices and technologies, driven by a broader view of global threat patterns than those of most local governments. With tens or hundreds of users possibly at risk of exposure to malicious programs, keeping organizations safe can be very costly. Cloud computing providers work with a much larger budget. Because they need to ensure the security of all their customers, each company gains benefits from the larger group, meaning a higher level of security for everyone. With a hardened infrastructure, careful monitoring, and enforcement of security protocols, cloud computing can offer small and medium-sized businesses the same protection as organizations with highly demanding requirements. ",
                     "corpoColor": "#3ea6eb"
                 }
             ]
@@ -187,44 +183,50 @@
 
 
     {
-        "titulo": "Cloud computing",
-        "subtitulo": "Features",
+        "titulo": "Cloud features",
+        "subtitulo": "Go to the answer",
         "principal": false,
         "tipoLayout": "IMAGEM_DIREITA",
         "conteudo": {
             "classeStyle": "col-md-8",
             "backgroundColor": "",
             "color": "white",
-            "titulo": "Features",
+            "titulo": "Cloud features",
             "paragrafos": [
                 {
-                    "subtitulo": "Sob demanda",
-                    "subtituloColor": "#00ffd0",
-                    "corpo": "Não é preciso consultar alguém ou ter um profissional de TI envolvido no provisionamento do servidor ou do armazenamento na rede. Você tem a capacidade de computação necessária quando precisa.",
+                    "subtitulo": "",
+                    "subtituloColor": "",
+                    "corpo": "Main features of Cloud Computing",
                     "corpoColor": "white"
                 },
                 {
-                    "subtitulo": "Multiplataforma:",
+                    "subtitulo": "On demand:",
                     "subtituloColor": "#00ffd0",
-                    "corpo": "Basta ter uma conexão à internet para acessar o serviço em seu laptop, tablet, smartphone ou computador desktop.",
+                    "corpo": "No need to consult someone or have an IT professional involved in provisioning the server or network storage. You have the competence you need when you need it.",
                     "corpoColor": "white"
                 },
                 {
-                    "subtitulo": "Recursos em pool",
+                    "subtitulo": "Multiplatform:",
                     "subtituloColor": "#00ffd0",
-                    "corpo": "Segue o modelo de multilocatários, o que significa que há vários usuários do software.",
+                    "corpo": "All you need is an internet connection to access the service on your laptop, tablet, smartphone or desktop computer.",
                     "corpoColor": "white"
                 },
                 {
-                    "subtitulo": "Flexibilidade rápida",
+                    "subtitulo": "Pooled Resources:",
                     "subtituloColor": "#00ffd0",
-                    "corpo": "O usuário tem uma experiência que é dimensionada com base na demanda e na utilização real.Imagine um hotel que possa mudar o tamanho da cama de queen size para king size no mesmo \"quarto\".",
+                    "corpo": "Follows the multi-tenant model, which means there are multiple users of the software.",
                     "corpoColor": "white"
                 },
                 {
-                    "subtitulo": "Serviço medido",
+                    "subtitulo": "Rapid flexibility:",
                     "subtituloColor": "#00ffd0",
-                    "corpo": "A utilização de recursos é monitorada, controlada e relatada antecipadamente.Isso torna a capacidade de computação essencialmente a mesma em relação a um serviço de utilitários pago.",
+                    "corpo": "The user has an experience that scales based on demand and actual usage. Imagine a hotel that can change the bed size from queen size to king size in the same \"room\".",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "Measured Service:",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "Resource utilization is monitored, controlled, and reported in advance. This makes the ability to compete essentially the same as a paid utility service.",
                     "corpoColor": "white"
                 }
             ]
@@ -244,6 +246,129 @@
                             "url": "assets/iphone2.png"
                         }
                         
+                    ]
+                }
+            ]
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+    {
+        "titulo": "Cloud examples",
+        "subtitulo": "Go to the answer",
+        "principal": false,
+        "tipoLayout": "",
+        "conteudo": {
+            "classeStyle": "col-md-6",
+            "backgroundColor": "white",
+            "color": "#7c25f8",
+            "titulo": "Cloud examples",
+            "paragrafos": [
+                {
+                    "subtitulo": "",
+                    "subtituloColor": "",
+                    "corpo": "Examples of cloud computing",
+                    "corpoColor": "#7c25f8"
+                },
+                {
+                    "subtitulo": "Google",
+                    "subtituloColor": "#7c25f8",
+                    "corpo": "Google uses cloud computing to store its data, when you search for something on the internet, upload an image and everything else, know that this data was uploaded through the cloud. In addition, Google has its own cloud computing service, such as Google Drive, which you may have even used on other occasions, in which case this service is free, but with many limitations.",
+                    "corpoColor": "#7c25f8"
+                },
+                {
+                    "subtitulo": "Spotify",
+                    "subtituloColor": "#7c25f8",
+                    "corpo": "Due to the high demand of users, Spotify was another one that migrated its data to the cloud in 2016. With that the company saved a good amount of money, since one of the main reasons for the migration would have been the high costs that the company was having with storing your data in data centers around the world.",
+                    "corpoColor": "#7c25f8"
+                },
+                {
+                    "subtitulo": "Netflix",
+                    "subtituloColor": "#7c25f8",
+                    "corpo": "Also in 2016, Netflix migrated 100% of its data to the cloud, this process took about seven years, but it brought excellent benefits for you to have a quick view of the content available through the application, as the company grew a lot, and fast, this was already an anticipation process in order to maintain the quality of its services.",
+                    "corpoColor": "#7c25f8"
+                },
+                {
+                    "subtitulo": "Uber",
+                    "subtituloColor": "#7c25f8",
+                    "corpo": "Uber, we can say that it came in the same line as Netflix, as it had a very large growth in a short time, demand grew a lot and the company's strategy was to migrate data to the cloud to be able to serve all this audience in the best possible way.",
+                    "corpoColor": "#7c25f8"
+                },
+                {
+                    "subtitulo": "Airbnb",
+                    "subtituloColor": "#7c25f8",
+                    "corpo": "This is an example of cloud computing that has already emerged with data migrated in cloud compunting. Airbnb has never had its data stored on its own, this type of company that is born in the middle of the cloud is called born on the cloud.",
+                    "corpoColor": "#7c25f8"
+                },
+                {
+                    "subtitulo": "",
+                    "subtituloColor": "",
+                    "corpo": "Well, these are very practical examples of cloud computing, and I'm sure at least one of these you've heard of or even use with some frequency. We can also see that strong companies in the economic scenario have migrated their data or even been born in the cloud.",
+                    "corpoColor": "#7c25f8"
+                }
+            ]
+        }
+    },
+
+
+
+
+
+
+
+
+
+
+
+    {
+        "titulo": "Types of Cloud Services",
+        "subtitulo": "Go to the answer",
+        "principal": false,
+        "tipoLayout": "IMAGEM_DIREITA",
+        "conteudo": {
+            "classeStyle": "col-md-8",
+            "backgroundColor": "",
+            "color": "white",
+            "titulo": "Types of Cloud Services",
+            "paragrafos": [
+                {
+                    "subtitulo": "Iaas",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "Infrastructure as a Service (IaaS), also known as cloud infrastructure services, provides end users with cloud-based alternatives to on-premise, physical infrastructure, allowing businesses to purchase resources on-demand instead of paying more to buy and manage hardware.",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "PaaS",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "Platform as a Service (PaaS), provides developers with a framework, software and tools needed to build apps and software — all accessible through the internet, it gives its customers broader access to servers, storage and networking, all managed by a third-party provider.",
+                    "corpoColor": "white"
+                },
+                {
+                    "subtitulo": "SaaS",
+                    "subtituloColor": "#00ffd0",
+                    "corpo": "Software as a Service (SaaS), is the most commonly used service within the cloud market. SaaS platforms make software available to users over the internet, usually for a monthly subscription fee, offering security, compliance and maintenance as part of the cost.",
+                    "corpoColor": "white"
+                }
+            ]
+        },
+        "midias": {
+            "classeStyle": "col-md-12",
+            "agrupamento": [
+                {
+                    "classeStyle": "row albuns",
+                    "imagens": [
+                        {
+                            "classeStyle": "col-md-12 d-none d-md-block",
+                            "url": "assets/tipos.png"
+                        }
                     ]
                 }
             ]
